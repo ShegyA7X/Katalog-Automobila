@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekat</title>
+    <style>
+body {
+  background-image: url('slike/pozadina.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</head>
+<body >
+    <h1>Omiljeni auto</h1>
+    <form>
+        <fieldset>
+            <legend>Osnovni podaci</legend>
+            Marka
+            <input type="text" > <br><br>
+            Model
+            <input type="text" > <br><br>
+            Godina proizvodnje:
+            <input type="number" size="4"><br><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Dodatni podaci</legend>
+            <input type="radio"  name="gorivo" checked>Benzin<br>
+            <input type="radio"  name="gorivo" >Benzin + Gas (TNG)<br>
+            <input type="radio"  name="gorivo" >Dizel<br><br>
+            <select name="Vrsta">
+                <option>Hedžbek</option>
+                <option>Karavan</option>
+                <option>Limuzina</option>
+                <option>Kupe</option>
+                <option>Kabriolet</option>
+                <option>Džip</option>
+                <option>MiniVan</option>
+            </select><br><br>
+            Koliko kW: od
+            <input type="number">
+            do
+            <input type="number"><br><br>
+            <textarea name="DodatniOpis" rows="10" cols="100">Dodatni opis</textarea>
+        </fieldset><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <a href="index.html">Omiljeni auto</a>
+    <a href="Predlog1.html">Predlog 1</a>
+    <a href="Predlog2.html">Predlog 2</a>
+    <a href="Predlog3.html">Predlog 3</a>
+    <a href="Predlog4.html">Predlog 4</a>
+    <a href="KupiAuto.html">Kupi auto</a>
+</body>
+</html>
